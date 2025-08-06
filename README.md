@@ -1,2 +1,9 @@
 # Anime-Website-project
 Build a Anime Website Using Html, CSS, Javascript , contain Dockerfile
+1. sudo apt-get update -y  
+2. sudo apt-get install docker.io  -y
+3. sudo systemctl status docker 
+4. sudo usermod -aG docker ubuntu && newgrp docker
+5. docker ps
+6. docker build -t nginx-app .
+7. docker run -d -p 80:80 nginx-app
